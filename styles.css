@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.Header{
+    display: flex;
+    background-color: #1f2937;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.logo{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    color: #f9faf8;
+    font-size: 18px;
+    justify-content: space-evenly;
+    gap:2vw
+}
+
+.Sign-up{
+    display: flex;
+    padding: 10vw;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.Description.Bold{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.Description.Top-para{
+    font-size: 18px;
+}
+
+.Description {
+    flex: 2;
+    width: 45vw;
+}
+
+.Description-image {
+    display: flex;
+    flex: 3;
+    width: 45vw;
+    align-items: center;
+    justify-content: center;
+
+}
